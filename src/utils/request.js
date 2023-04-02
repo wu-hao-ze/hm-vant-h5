@@ -4,6 +4,9 @@
 import axios from 'axios'
 import { Toast } from 'vant'
 import { delToken, getToken } from './storage'
+// 注意下面这个引路由实例对象只是为了下面的一句router.push()
+// 这里一定不能使用this.$router.push()，因为这里是js环境下，this不指向组件实例，而是指向window，所以一定没有this.$router
+// 前面说过，router路由实例对象是唯一的，和this.$router指的是一个，所以这里可以引包然后直接使用路由实例对象
 import router from '@/router'
 
 // 创建一个新的axios实例
