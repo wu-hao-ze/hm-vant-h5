@@ -1,11 +1,11 @@
-// 首先第一点，一定要一本项目为根目录打开，否则就是报错
+// 首先第一点，一定要以本项目为根目录打开，否则就是报错
 // 本项目要启用工作区的eslint，然后在设置中右上角打开settings.json，在其中加入如下
 // 当保存的时候，eslint自动帮我们修复错误
 // "editor.codeActionsOnSave": {
 //   "source.fixAll": true
 // },
 // 并且要把保存时自动格式化取消，可以在设置中搜索保存，然后取消，也可以在settings.json中更改
-// "editor.formatOnSave": true,改成false
+// "editor.formatOnSave": true    把true改成false
 
 // api目录是存放接口模块(发送ajax请求接口的模块，专门封装请求函数，一般只和接口文档相关)
 // utils目录是存储一些工具模块(自己封装的方法)
