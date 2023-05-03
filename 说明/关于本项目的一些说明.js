@@ -99,6 +99,6 @@
 
 // 那么如果不想这么麻烦，就可以设置为空字符串 ('') 或是相对路径 ('./')，这样所有的资源都会被链接为相对路径
 // 这样打出来的包可以被部署在任意路径，也可以用在类似 Cordova hybrid 应用的文件系统中
-module.exports = {
-  publicPath: './'
-}
+// module.exports = {
+//   publicPath: './'
+// }
